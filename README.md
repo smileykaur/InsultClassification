@@ -55,9 +55,11 @@ Once the models have been created, I am evaluating all the models. Basic metrics
 I am using **10-fold cross validation** to check training accuracy and determine how well the model is fitting in training data. This also checks for any possible overfitting. The cross validation accuracy was more significant because it was more generalized.
 
 #### Stage 5. Results 
+__________________
 This section evaluates the results obtained during training. I check the **Normal Accuracy**, **Cross Validatio Accuracy**, **precision-recall Scores**. I also build bar graphs to visually represent these results. 
 
 #### Stage 6. Predicting Test Data
+__________________
 In this section I predict values for test data using the model built on Stage 4. Finally I present my conclusion which will be based on following parameters -
 1. Classification Accuracy
 2. AUC Score
